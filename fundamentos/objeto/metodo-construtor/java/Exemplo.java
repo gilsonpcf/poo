@@ -1,7 +1,7 @@
-// Disciplina: Programação Orientada a Objetos
+// Disciplina: ProgramaÃ§Ã£o Orientada a Objetos
 // Professor : Gilson Pereira
-// Assunto   : Métodos construtores e destrutores em Java
-// Fonte     : Ascencio e Campos - Fundamentos da Programação de Computadores (3ª ed.)
+// Assunto   : MÃ©todos construtores e destrutores em Java
+// Fonte     : Ascencio e Campos - Fundamentos da ProgramaÃ§Ã£o de Computadores (3Âª ed.)
 
 import java.util.Scanner;
 
@@ -41,7 +41,7 @@ public class Exemplo
 		float preco, imp;
 		String tipo;
 		
-		System.out.println("digite o preço do produto: ");
+		System.out.println("digite o preÃ§o do produto: ");
 		preco = dado.nextFloat();
 		
 		System.out.println("digite o tipo do produto: ");
@@ -50,7 +50,7 @@ public class Exemplo
 		p.valor = preco;
 		p.tipo = tipo;
 		
-		System.out.println("\nPreço do produto = " + p.valor);
+		System.out.println("\nPreÃ§o do produto = " + p.valor);
 		System.out.println("\nTipo do produto = " + p.tipo);
 		
 		imp = p.valorImposto();
