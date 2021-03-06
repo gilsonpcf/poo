@@ -1,17 +1,17 @@
-// Disciplina: Programação Orientada a Objetos
+// Disciplina: ProgramaÃ§Ã£o Orientada a Objetos
 // Professor : Gilson Pereira
-// Assunto   : Herança em Java
-// Fonte     : Ascencio e Campos - Fundamentos da Programação de Computadores (3ª ed.)
+// Assunto   : HeranÃ§a em Java
+// Fonte     : Ascencio e Campos - Fundamentos da ProgramaÃ§Ã£o de Computadores (3Âª ed.)
 
 public class Aplicacao {
 	public static void main(String[] args) {
-		System.out.println("Iniciando o processo de criação de um objeto Pessoa");
+		System.out.println("Iniciando o processo de criaÃ§Ã£o de um objeto Pessoa");
 		Pessoa p = new Pessoa();
 		
-		System.out.println("\nIniciando o processo de criação de um objeto Aluno");
+		System.out.println("\nIniciando o processo de criaÃ§Ã£o de um objeto Aluno");
 		Aluno a = new Aluno();
 		
-		System.out.println("\nIniciando o processo de criação de um objeto Funcionario");
+		System.out.println("\nIniciando o processo de criaÃ§Ã£o de um objeto Funcionario");
 		Funcionario f = new Funcionario();
 		
 		p.setNome("Vanderlei");
@@ -21,8 +21,8 @@ public class Aplicacao {
 		a.setNome("Maria");
 		a.setEndereco("Rua 26 de agosto, 1874");
 		a.setDataNascimento("31/01/1990");
-		a.setCurso("Ciência da Computação");
-		a.setSemestre("4º");
+		a.setCurso("CiÃªncia da ComputaÃ§Ã£o");
+		a.setSemestre("4Âº");
 		
 		f.setNome("Pedro");
 		f.setEndereco("Rua 7 de setembro, 3875");
@@ -32,12 +32,12 @@ public class Aplicacao {
 		
 		System.out.println("\nDados cadastrados no objeto p - do tipo Pessoa");
 		System.out.println("Nome: " + p.getNome());
-		System.out.println("Endereço: " + p.getEndereco());
+		System.out.println("EndereÃ§o: " + p.getEndereco());
 		System.out.println("Data de nascimento: " + p.getDataNascimento());
 		
 		System.out.println("\nDados cadastrados no objeto a - do tipo Aluno");
 		System.out.println("Nome: " + a.getNome());
-		System.out.println("Endereço: " + a.getEndereco());
+		System.out.println("EndereÃ§o: " + a.getEndereco());
 		System.out.println("Data de nascimento: " + a.getDataNascimento());
 		System.out.println("Curso: " + a.getCurso());
 		System.out.println("Semestre: " + a.getSemestre());
@@ -47,6 +47,6 @@ public class Aplicacao {
 		System.out.println("Endereco: " + f.getEndereco());
 		System.out.println("Data de nascimento: " + f.getDataNascimento());
 		System.out.println("Cargo: " + f.getCargo());
-		System.out.println("Salário: R$ " + f.getSalario());
+		System.out.println("SalÃ¡rio: R$ " + f.getSalario());
 	}
 }
