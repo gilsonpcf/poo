@@ -26,7 +26,7 @@ public class Agenda {
 			quantidade--;
 		}
 		else
-			System.out.println("Não existe pessoa com este nome na agenda!");
+			System.out.println("NÃ£o existe pessoa com este nome na agenda!");
 	}
 
 	public int buscaPessoa(String nome) {
