@@ -12,9 +12,9 @@ public class Agenda {
 	}
 	
 	public int buscaPessoa(String nome) {
-		for (int i = 0; i < pessoas.size(); i++) {
-			if (pessoas.get(i).getNome().equals(nome)) {
-				return i; 
+		for (Pessoa p : pessoas) {
+			if (p.getNome().equals(nome)) {
+				return pessoas.indexOf(p);
 			}
 		}
 
